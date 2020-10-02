@@ -5,7 +5,7 @@ error_reporting(0);
     ********************************************************
     Fake Generator - Pengumuman SBMPTN LTMPTN 2020
     Author: @naufalist //https://github.com/naufalist/sbmptn
-    Original Source Code: Tim TIK LTMPT 2020
+    Original Source Code: Tim IT LTMPT 2020
     ********************************************************
 -->
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ error_reporting(0);
 	</script-->
 	<!-- End Matomo Code -->
 
-	<title>Pengumuman SBMPTN LTMPT 2020</title>
+	<title>Pengumuman Resmi SBMPTN LTMPT 2020</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /-->	
@@ -136,7 +136,7 @@ error_reporting(0);
 		<div class="void"></div>
 		<div class="row m-1">
 			<div class="col-12 text-center">
-				<span class="title">PENGUMUMAN HASIL SELEKSI SBMPTN LTMPT 2020</span>
+				<span class="title">PENGUMUMAN HASIL KESELURUHAN SELEKSI SBMPTN LTMPT 2020</span>
 			</div>
 		</div>
 		<div class="void"></div>
@@ -151,7 +151,7 @@ error_reporting(0);
 
 		<div class="card card-block bg-faded mx-auto box-width">
 			<div class="card-header">
-				<strong>Masukkan data peserta SBMPTN Anda.</strong>	
+				<strong>Dimohon agar memasukkan data peserta SBMPTN Anda.</strong>	
 			</div>
 			<div class="card-body">
 				<form name="sbm" method="POST" action="">
@@ -162,12 +162,12 @@ error_reporting(0);
 					<small id="nopes-help" class="form-text text-muted">Masukkan 10-digit nomor peserta SBMPTN Anda.</small>
 				</div-->
 				<div class="form-group">
-					<label for="nopes">Nomor peserta SBMPTN</label>
+					<label for="nopes">Input Nomor peserta SBMPTN</label>
 					<input type="number" id="nopes" name="nopes" class="form-control no-spinners" tabindex="1" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="12" autocomplete="off" required="">
 					<small id="nopes-help" class="form-text text-muted">Masukkan 12-digit nomor peserta UTBK-SBMPTN Anda.</small>
 				</div>
 				<div class="form-group">
-					<label for="nama">Nama peserta</label>
+					<label for="nama">Masukkan Nama peserta</label>
 					<input type="text" id="nama" name="nama" class="form-control no-spinners" tabindex="2" autocomplete="off" style="text-transform:uppercase" required="">
 					<small id="nama-help" class="form-text text-muted">Masukkan nama peserta Anda.</small>
 				</div>
@@ -242,7 +242,7 @@ error_reporting(0);
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="bidikmisi">Peserta Bidik Misi?</label>
+					<label for="bidikmisi">Apakah Anda Peserta Bidik Misi?</label>
 					<select name="bidikmisi" id="bidikmisi" class="form-control no-spinners" tabindex="6" autocomplete="off" required="">
 						<option value="tidak" selected="">Tidak</option>
 						<option value="ya">Ya</option>
@@ -252,7 +252,7 @@ error_reporting(0);
 				<div class="form-group">
 					<label for="kodeptn">PTN</label>
 					<select name="kodeptn" id="kodeptn" class="form-control no-spinners" tabindex="7" autocomplete="off" required="">
-						<option value="" selected="">-- Pilih PTN --</option>
+						<option value="" selected="">-- Pilihlah PTN Kamu --</option>
 					</select>
 					<small id="kodeptn-help" class="form-text text-muted">Pilih PTN Anda.</small>
 				</div>
